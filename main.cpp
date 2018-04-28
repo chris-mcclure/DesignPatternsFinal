@@ -8,7 +8,8 @@
 #include "SummerShandyProxy.h"
 int main()
 {
-    SummerShandyProxy beers[3] = {SummerShandyProxy(4, 4.30, "PBR"), SummerShandyProxy(12, 1.1, "Summer Shandy"), SummerShandyProxy(3, 6.00, "Milk Stout") };
+    SummerShandyProxy beers[3] = {SummerShandyProxy(4, 4.30, "PBR"),
+        SummerShandyProxy(12, 1.1, "Summer Shandy"), SummerShandyProxy(3, 6.00, "Milk Stout") };
     for(int i = sizeof(beers)/sizeof(*beers); i >= 0; i--){
         if(i == 0)
             break;
