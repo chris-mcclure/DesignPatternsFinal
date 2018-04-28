@@ -5,7 +5,11 @@
 //  Created by Chris McClure on 4/28/18.
 //  Copyright © 2018 Chris McClure. All rights reserved.
 //
-#include "SummerShandyProxy.h"
+#include "Beer.cpp"
+#include <vector>
+#include <iostream>
+using std::cin;
+using std::vector;
 int main()
 {
     SummerShandyProxy beers[3] = {SummerShandyProxy(4, 4.30, "PBR"), SummerShandyProxy(12, 1.1, "Summer Shandy"), SummerShandyProxy(3, 6.00, "Milk Stout") };
@@ -13,6 +17,5 @@ int main()
         if(i == 0)
             break;
         beers[i-1].getDrunk();
-        
     }
 }
