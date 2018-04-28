@@ -5,7 +5,7 @@
 //  Created by Chris McClure on 4/28/18.
 //  Copyright © 2018 Chris McClure. All rights reserved.
 //
-#include "SummerShandyProxy.h"
+#include "SummerShandyProxy.hpp"
 int main()
 {
     SummerShandyProxy beers[3] = {SummerShandyProxy(4, 4.30, "PBR"),

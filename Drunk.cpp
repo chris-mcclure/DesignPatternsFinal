@@ -6,7 +6,7 @@
 //  Copyright © 2018 Chris McClure. All rights reserved.
 //
 
-#include "Drunk.h"
+#include "Drunk.hpp"
 Drunk::Drunk(double num)
 {
     _numOfDrinks = num;

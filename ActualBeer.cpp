@@ -6,7 +6,7 @@
 //  Copyright © 2018 Chris McClure. All rights reserved.
 //
 
-#include "ActualBeer.h"
+#include "ActualBeer.hpp"
 
 #include <utility>
 using std::string;

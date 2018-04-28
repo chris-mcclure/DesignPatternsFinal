@@ -5,7 +5,7 @@
 //  Created by Chris McClure on 4/28/18.
 //  Copyright © 2018 Chris McClure. All rights reserved.
 //
-#include "Drunk.h"
+#include "Drunk.hpp"
 
 #ifndef ActualBeer_h
 #define ActualBeer_h

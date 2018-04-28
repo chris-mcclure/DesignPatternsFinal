@@ -12,9 +12,10 @@ set(CMAKE_CXX_FLAGS
 
 project (ProxyDesignPattern)
 set(SOURCES 
-	ActualBeer.cpp ActualBeer.h
-	SummerShandyProxy.cpp SummerShandyProxy.h
-	Drunk.cpp Drunk.h
+	ActualBeer.cpp ActualBeer.hpp
+	SummerShandyProxy.cpp SummerShandyProxy.hpp
+	Drunk.cpp Drunk.hpp
+	main.cpp
 )
 
 #add_executable(${SOURCES})
